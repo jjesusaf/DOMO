@@ -51,7 +51,6 @@ const Home = () => {
                 <p className='t1bold'>
                     El 85% de las personas considera que la compra de un inmueble es sinónimo de inversión.
                 </p>
-                <img src={Image2} alt="" id='image2' />
             </section>
             <section className='home4'>
                 <h1>
@@ -250,6 +249,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+
+            </section>
+            <section className='home9'>
 
             </section>
         </div>
