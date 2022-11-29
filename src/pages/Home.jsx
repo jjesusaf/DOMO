@@ -7,6 +7,8 @@ import Image5 from '../assets/img/image5.png'
 import Image6 from '../assets/img/image6.png'
 import Image9 from '../assets/img/image9.png'
 import Image10 from '../assets/img/image10.png'
+import Image11 from '../assets/img/image11.png'
+
 const Home = () => {
     return (
         <div>
@@ -242,7 +244,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='home8-a2'>
-                            <img src={Image10} alt="" id='img10'/>
+                            <img src={Image10} alt="" id='img10' />
                             <p>
                                 Javier es un abogado especializado en el sector inmobiliario y la industria de la construcción. Tiene experiencia en asesoramiento, litigio, mediación, cumplimiento normativo y politica pública.
                             </p>
@@ -252,8 +254,51 @@ const Home = () => {
 
             </section>
             <section className='home9'>
-
+                <h1>
+                    Preguntas frecuentes
+                </h1>
+                <h2>
+                    Respondemos a tus preguntas sobre DOMO
+                </h2>
+                <div className='home9-a'>
+                    <div className='home9-a1'>
+                        <p className='text9'>
+                            1.¿XXXXXXXXXXXXXXXXXXXXXXXXX?
+                        </p>
+                        <input type="text" placeholder='XXXXXXXXXXXXXXXXX' className='input9'/>
+                        <p className='text9'>
+                            2.¿XXXXXXXXXXXXXXXXXXXXXXXXX?
+                        </p>
+                        <input type="text" placeholder='XXXXXXXXXXXXXXXXX' className='input9'/>
+                        <p className='text9'>
+                            3.¿XXXXXXXXXXXXXXXXXXXXXXXXX?
+                        </p>
+                        <input type="text" placeholder='XXXXXXXXXXXXXXXXX' className='input9'/>
+                        <p className='text9'>
+                            4.¿XXXXXXXXXXXXXXXXXXXXXXXXX?
+                        </p>
+                        <input type="text" placeholder='XXXXXXXXXXXXXXXXX' className='input9'/>
+                    </div>
+                    <div className='home9-img'>
+                        <img src={Image11} alt="" id='img11' />
+                    </div>
+                </div>
             </section>
+            <footer className='footer'>
+                <div className='footer-a'>
+                    LOGO
+                </div>
+                <div className='footer-b'>
+                    <h3>
+                        Todos los derechos reservados <br /> DOMO
+                    </h3>
+                </div>
+                <div>
+                    <h3>
+                        Términos y condiciones <br /> Aviso de privacidad 
+                    </h3>
+                </div>
+            </footer>
         </div>
     );
 };
