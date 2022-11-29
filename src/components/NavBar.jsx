@@ -24,8 +24,24 @@ const NavBar = () => {
                     >
                         <li className='in'>Roadmap</li>
                     </Link>
-                    <li className='in'>Invierte</li>
-                    <li className='in'>Nosotros</li>
+                    <Link
+                        to="home7"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        <li className='in'>Invierte</li>
+                    </Link>
+                    <Link
+                        to="home8"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        <li className='in'>Nosotros</li>
+                    </Link>
                     <li className='in'>Preguntas</li>
                 </ul>
                 <button>
